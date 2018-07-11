@@ -1,3 +1,5 @@
+//binary search
+//time complexity O(log(n))
 #include <stdio.h>
 int binarySearch(int arr[], int l, int r, int x)
 {
@@ -17,10 +19,9 @@ int binarySearch(int arr[], int l, int r, int x)
  
 int main(void)
 {
-    int arr[] = {2, 3, 4, 10, 40};
+    int arr[] = {1, 3, 5, 7, 9, 11};
     int n = sizeof(arr)/ sizeof(arr[0]);
-    int x = 10;
-    int r = binarySearch(arr, 0, n-1, x);
+    int r = binarySearch(arr, 0, n-1, 9);
     if(r!=-1){
       printf("Number is present\n");
     }
