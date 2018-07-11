@@ -1,3 +1,5 @@
+//Linear search
+//Time complexity O(n)
 #include <stdio.h>
  int main()
 {
