@@ -1,4 +1,5 @@
 /*
+https://practice.geeksforgeeks.org/problems/sum-of-primes/0
 Your task is to calculate sum  of primes present as digits of given number N.
 
 Input:
